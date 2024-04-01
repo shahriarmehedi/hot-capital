@@ -7,7 +7,7 @@ function Navbar() {
             <div className="flex justify-between items-center max-w-7xl mx-auto px-5 2xl:px-0">
                 <div className="">
                     <Link href="/">
-                        <img src="/logo.png" alt="logo" className='h-16' />
+                        <img src="/Logo.png" alt="logo" className='h-16' />
                     </Link>
                 </div>
                 <div className="gap-5 items-center hidden lg:flex">
