@@ -21,7 +21,7 @@ function Hero3() {
                     <div className='text-white font-bold text-4xl p-10 rounded-3xl text-center flex justify-center items-center bg-[#2F6CDF]'>
                         ingreso 100% digital
                     </div>
-                    <div className="flex mt-16 gap-7">
+                    <div className="flex flex-col lg:flex-row mt-16 gap-7">
                         <img src="image 50.png" alt="Hero" className=' lg:w-[200px]' />
                         <div className='bg-[#F8F4E8] text-[#076241] font-bold text-4xl p-10 rounded-3xl text-center flex justify-center items-center'>
                             retorno anual esperado del 15%

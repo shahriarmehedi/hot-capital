@@ -8,7 +8,7 @@ function Hero2() {
                     <div className="lg:w-1/2 flex lg:justify-start">
                         <img src="image 45.png" alt="Hero" className='w-[400px]' />
                     </div>
-                    <div className="lg:w-1/2 text-right">
+                    <div className="lg:w-1/2 lg:text-right">
                         <h1 className='text-5xl font-bold text-[#2F6CDF]'>Invertir en crypto
                             es complicado.
                         </h1>
