@@ -1,9 +1,13 @@
-import Link from 'next/link'
-import React from 'react'
+'use client'
+
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
 
 function Navbar() {
+
+
     return (
-        <div className=' py-4 border-b border-gray-200'>
+        <div className=' py-4 border-b border-gray-200 sticky top-0 bg-white z-50'>
             <div className="flex justify-between items-center max-w-7xl mx-auto px-5 2xl:px-0">
                 <div className="">
                     <Link href="/">
@@ -23,7 +27,7 @@ function Navbar() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;

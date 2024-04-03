@@ -17,28 +17,28 @@ function Hero3() {
 
 
             <div className="flex flex-col lg:flex-row gap-10 mt-10">
-                <div className="w-full lg:w-1/2">
-                    <div className='text-white font-bold text-4xl p-10 rounded-3xl text-center flex justify-center items-center bg-[#2F6CDF]'>
+                <div className="w-full flex-col justify-between flex gap-10 lg:w-1/2 ">
+                    <div className='text-white font-bold text-3xl px-7 py-16 rounded-3xl text-center flex justify-center items-center bg-[#2F6CDF]'>
                         ingreso 100% digital
                     </div>
-                    <div className="flex flex-col lg:flex-row mt-16 gap-7">
+                    <div className="flex flex-col lg:flex-row gap-7">
                         <img src="image 50.png" alt="Hero" className=' lg:w-[200px]' />
-                        <div className='bg-[#F8F4E8] text-[#076241] font-bold text-4xl p-10 rounded-3xl text-center flex justify-center items-center'>
+                        <div className='bg-[#F8F4E8] text-[#076241] font-bold text-3xl p-10 rounded-3xl text-center flex justify-center items-center'>
                             retorno anual esperado del 15%
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2">
+                <div className="w-full lg:w-1/2 flex flex-col justify-between">
 
                     <div className="flex flex-col lg:flex-row gap-7">
 
-                        <div className="flex flex-col">
-                            <div className='bg-[#F8A703] text-white font-bold text-4xl p-10 rounded-3xl text-center flex justify-center items-center'>
+                        <div className="flex flex-col justify-between">
+                            <div className='bg-[#F8A703] text-white font-bold text-3xl px-7 py-10 rounded-3xl text-center flex justify-center items-center'>
                                 procesos
                                 anti- lavado de
                                 activos
                             </div>
-                            <div className='flex gap-3 justify-end mt-5'>
+                            <div className='flex gap-3 justify-center mt-5'>
                                 <img src="Frame 30.png" alt="Hero" className=' w-[50px]' />
                                 <img src="Frame 30.png" alt="Hero" className=' w-[50px]' />
                                 <img src="Frame 30.png" alt="Hero" className=' w-[50px]' />
@@ -46,7 +46,7 @@ function Hero3() {
                         </div>
                         <img src="image 5012.png" alt="Hero" className=' lg:w-[200px]' />
                     </div>
-                    <div className='bg-[#F8F4E8] font-bold text-4xl p-10 rounded-3xl text-center flex justify-center items-center text-[#2F6CDF] mt-7'>
+                    <div className='bg-[#F8F4E8] font-bold text-3xl px-7 py-10 rounded-3xl text-center flex justify-center items-center text-[#2F6CDF] mt-7'>
                         reportes trimestrales
                     </div>
                 </div>
